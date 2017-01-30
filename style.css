@@ -1,0 +1,30 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Nunito', sans-serif;
+
+}
+
+#titleholder {
+ text-align:center 
+}
+
+button {
+    border: none;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+  	border-radius: 4px;
+  	width: 80px;
+}
+
+button:hover {
+  box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+/* 	transform: skewX(-20deg); */
+}
+
+button:focus {outline:0;}
